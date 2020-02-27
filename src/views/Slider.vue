@@ -68,7 +68,9 @@
      opacity: 1;
  }
  .carousel-control-prev:hover,
- .carousel-control-next:hover {
+ .carousel-control-prev:focus,
+ .carousel-control-next:hover,
+ .carousel-control-next:focus {
      color: inherit;
  }
  .min-vh-100 {
