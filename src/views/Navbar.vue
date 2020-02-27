@@ -3,7 +3,7 @@
     <table table-hover class="navtable">
       <tr>
         <b>
-          <a href="/" class="nav-link" Navigering>Forsiden</a>
+          <a href="/tp-dataplattform" class="nav-link" Navigering>Forsiden</a>
         </b>
       </tr>
       <tr>
