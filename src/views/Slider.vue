@@ -19,12 +19,10 @@
         </div>
       </div>
       <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        Gå tilbake
       </a>
       <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span>Les mer</span>
       </a>
     </div>
   </div>
@@ -34,12 +32,37 @@
  import HvaErDataplattform from "./HvaErDataplattform";
  export default {
      name: "Slider",
-   components: {HvaErDataplattform}
+     components: {HvaErDataplattform}
  }
 </script>
 
 <style scoped>
  .bg-info {
      background-color: #fff !important;
+  }
+  .carousel-control-prev {
+      left: 3rem;
+  }
+ .carousel-control-next {
+     right: 3rem;
+ }
+ .carousel-control-prev,
+ .carousel-control-next {
+     top: unset;
+     border: 0;
+     bottom: 2rem;
+     color: #2A2859;
+     height: 54px;
+     background: #B3F5FF;
+     font-family: Oslo Sans;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 27px;
+     opacity: 1;
+ }
+ .carousel-control-prev:hover,
+ .carousel-control-next:hover {
+     color: inherit;
  }
 </style>
