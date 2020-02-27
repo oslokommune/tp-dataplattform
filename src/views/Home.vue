@@ -1,9 +1,9 @@
 <template>
   <div class="home">
-    <div class="window">
+    <div class="window navbar">
       <Navbar />
     </div>
-    <div class="window">
+    <div class="window slider">
       <Slider />
     </div>
   </div>
@@ -41,5 +41,9 @@ h1 {
 
 .window {
   padding: 30px;
+}
+
+.slider {
+  width: 100%;
 }
 </style>
