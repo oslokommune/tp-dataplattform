@@ -1,9 +1,9 @@
 <template>
   <div class="navbar">
-    <table>
-      <th>Om oss</th>
-      <th>Datakatalogen</th>
-      <th>Kontakt oss</th>
+    <table class="navtable">
+      <th>Navigering</th>
+      <tr>Om oss</tr>
+      <tr>Kontakt oss</tr>
     </table>
   </div>
 </template>
@@ -22,5 +22,14 @@ p {
 }
 p.old {
   font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.navtable {
+  border: 1px solid black;
+  display: flex; /* or inline-flex */
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  height: 900px;
+  background-color: white;
 }
 </style>
