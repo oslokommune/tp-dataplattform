@@ -8,9 +8,9 @@
                 en måte som ivaretar personvern og individets rettigheter. Vi lever etter prinsippene om at:
             </p>
 
-            <ul class="list">
-                <li>Livet er en strøm av hendelser</li>
-                <li>Innsikt om innbyggerne skaper bedre tjenester</li>
+            <ul>
+                <li><Icons arrow />Livet er en strøm av hendelser</li>
+                <li><Icons arrow />Innsikt om innbyggerne skaper bedre tjenester</li>
             </ul>
 
             <p>
@@ -24,9 +24,13 @@
 </template>
 
 <script>
-	export default {
-		name: "HvaErDataplattform"
-	}
+  import { Icons } from '@tuuturu/vue/assets'
+  export default {
+      name: "HvaErDataplattform",
+      components: {
+          Icons
+      }
+  }
 </script>
 
 <style scoped>
@@ -35,6 +39,10 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .Icons {
+        display: inline-block;
     }
 
     .list {
