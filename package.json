@@ -9,8 +9,11 @@
   "dependencies": {
     "@tuuturu/styling": "^0.0.24",
     "@tuuturu/vue": "^0.0.28",
+    "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
+    "jquery": "^3.4.1",
     "minireset.css": "0.0.6",
+    "popper.js": "^1.16.1",
     "styleguide": "https://github.com/oslokommune/styleguide.git#0.35.10",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5"

@@ -15,22 +15,29 @@
 import Navbar from "./Navbar";
 import Slider from "./Slider";
 export default {
-  name: 'Home',
+  name: "Home",
 	components: {Slider, Navbar}
 }
 </script>
 
 <style lang="scss" scoped>
 p {
-	font-family: 'Oslo Sans', Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Oslo Sans", Avenir, Helvetica, Arial, sans-serif;
 }
 p.old {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .home {
+  background-image: url("~@/assets/bg.jpg");
+  background-size: cover;
     display: flex;
     justify-content: center;
+}
+
+h1 {
+  color: white;
+  height: 55px;
 }
 
 .window {
