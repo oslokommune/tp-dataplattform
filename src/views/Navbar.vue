@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
     <table class="navtable">
-      <th>Navigering</th>
+      <tr>Navigering</tr>
       <tr>Om oss</tr>
       <tr>Kontakt oss</tr>
     </table>
@@ -25,11 +25,18 @@ p.old {
 }
 
 .navtable {
+  padding-top: 18px;
   border: 1px solid black;
   display: flex; /* or inline-flex */
-  justify-content: flex-start;
   flex-wrap: wrap;
-  height: 900px;
+  height: 200px;
   background-color: white;
+  max-width: 200px;
+}
+
+tr,
+th {
+  width: 200px;
+  padding: 3px;
 }
 </style>
