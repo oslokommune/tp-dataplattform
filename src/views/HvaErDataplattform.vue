@@ -9,7 +9,7 @@
         Med dataplattformen tilbyr vi en rekke verktøy og tjenester som gjør det lett å skape verdi med data på
         en måte som ivaretar personvern og individets rettigheter. Vi lever etter prinsippene om at:
       </p>
-
+      <br />
       <ul>
         <li>
           <Icons arrow />Livet er en strøm av hendelser
@@ -18,7 +18,7 @@
           <Icons arrow />Innsikt om innbyggerne skaper bedre tjenester
         </li>
       </ul>
-
+      <br />
       <p>
         Med dataplattformen får du for eksempel få tilgang til et datasett med informasjon om vannkvaliteten på
         Oslo kommune sine badeplasser.
