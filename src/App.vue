@@ -4,6 +4,8 @@
 
     <router-view class="content"/>
 
+    hehuehiehi
+
     <Footer />
   </div>
 </template>

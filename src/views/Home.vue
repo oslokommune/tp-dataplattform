@@ -1,17 +1,21 @@
 <template>
   <div class="home">
-    <h1>WE GOT YO DATA</h1>
-    <Navigator />
+    <div class="window">
+      <Navbar />
+    </div>
+    <div class="window">
+      <Slider />
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import Navigator from "./Navigator";
+import Navbar from "./Navbar";
+import Slider from "./Slider";
 
 export default {
   name: "Home",
-  components: { Navigator }
+  components: { Slider, Navbar }
 };
 </script>
 
@@ -26,10 +30,16 @@ p.old {
 .home {
   background-image: url("~@/assets/bg.jpg");
   background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
   color: white;
   height: 55px;
+}
+
+.window {
+  padding: 30px;
 }
 </style>
