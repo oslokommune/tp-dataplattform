@@ -18,12 +18,14 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
-        Gå tilbake
-      </a>
-      <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
-        Neste
-      </a>
+      <div class="controls">
+        <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
+          Gå tilbake
+        </a>
+        <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
+          Neste
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -43,14 +45,18 @@
 </script>
 
 <style scoped>
+ .controls {
+     display: flex;
+ }
  .bg-info {
      background-color: #fff !important;
-  }
-  .carousel-control-prev {
-      left: 3rem;
-  }
+ }
+ .carousel-control-prev {
+     left: 3rem;
+ }
  .carousel-control-next {
      right: 3rem;
+     margin-left: auto;
  }
  .carousel-control-prev,
  .carousel-control-next {
@@ -72,6 +78,10 @@
  .carousel-control-next:hover,
  .carousel-control-next:focus {
      color: inherit;
+ }
+ .carousel-control-prev,
+ .carousel-control-next {
+     position: static;
  }
  .min-vh-100 {
      min-height: 70vh !important;

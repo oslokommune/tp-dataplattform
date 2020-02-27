@@ -39,7 +39,6 @@
      width:50px;
      white-space: normal;
      word-break: break-word;
-     max-width:1200px;
  }
  .Icons {
      display: inline-block;

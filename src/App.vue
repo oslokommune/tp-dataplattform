@@ -57,9 +57,6 @@ h3 {
     margin-top: 1.3333em
   }
 }
-p {
-  max-width: 36em;
-}
 
 html, body, #app {
   height: 100%;
