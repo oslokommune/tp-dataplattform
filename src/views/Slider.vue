@@ -9,7 +9,7 @@
         </div>
         <div class="carousel-item">
           <div class="d-flex align-items-center justify-content-center min-vh-100">
-            <h1 class="display-1">TWO</h1>
+            <Datasett/>
           </div>
         </div>
         <div class="carousel-item">
@@ -30,9 +30,13 @@
 
 <script>
  import HvaErDataplattform from "./HvaErDataplattform";
+ import Datasett from "./Datasett";
  export default {
      name: "Slider",
-     components: {HvaErDataplattform}
+     components: {
+         HvaErDataplattform,
+         Datasett
+     }
  }
 </script>
 
