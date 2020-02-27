@@ -1,14 +1,22 @@
 <template>
-  <div class="home">
-		<h1>Værsego'! Lag magi</h1>
-  </div>
+    <div class="home">
+        <div class="window">
+            <Navbar/>
+        </div>
+        <div class="window">
+            <Slider/>
+        </div>
+    </div>
 </template>
 
 <script>
 // @ is an alias to /src
 
+import Navbar from "./Navbar";
+import Slider from "./Slider";
 export default {
-  name: 'Home'
+  name: 'Home',
+	components: {Slider, Navbar}
 }
 </script>
 
@@ -18,5 +26,14 @@ p {
 }
 p.old {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+.window {
+    padding: 30px;
 }
 </style>
