@@ -51,9 +51,9 @@
      line-height: 34px;
  }
  ul {
-     margin: 1.5rem 4rem;
+     margin: 3rem 4rem;
  }
  h1 {
-     margin-bottom: 1.5rem;
+     margin-bottom: 3rem;
  }
 </style>
