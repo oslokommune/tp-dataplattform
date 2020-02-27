@@ -13,8 +13,8 @@
         kontaktinformasjon til eier av datasettet.
       </p>
       <ul>
-        <li><Icons arrow /> Ta en titt i datasettkatalogen</li>
-        <li><Icons arrow /> Registrer et datasett</li>
+        <li><Icons arrow /><a href="https://developer.oslo.kommune.no/katalog/data">Ta en titt i datasettkatalogen</a></li>
+        <li><Icons arrow /><a href="https://developer.oslo.kommune.no/katalog/data/registrer">Registrer et datasett</a></li>
       </ul>
     </div>
   </div>
