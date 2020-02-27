@@ -47,5 +47,6 @@ h1 {
 
 .slider {
   width: 100%;
+  margin-right: 232px;
 }
 </style>
