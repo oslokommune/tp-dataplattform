@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid px-0">
-    <div id="carousel-controls" class="carousel slide" data-ride="carousel" data-interval="">
+    <div id="carousel-controls" class="carousel slide" data-ride="carousel" data-interval="999999">
       <div class="carousel-inner bg-info" role="listbox">
         <div class="carousel-item active">
           <div class="d-flex align-items-center justify-content-center min-vh-100">
