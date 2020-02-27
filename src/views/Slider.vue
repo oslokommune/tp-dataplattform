@@ -65,4 +65,7 @@
  .carousel-control-next:hover {
      color: inherit;
  }
+ .min-vh-100 {
+     min-height: 70vh !important;
+ }
 </style>
