@@ -1,18 +1,24 @@
 <template>
     <div class="content">
         <div>
-            <h1>Dataplattformen skal sørge for trygg deling og gjenbruk av kommunens data for å skape verdi for Tim.</h1>
+            <h1>Hva er dataplattformen?</h1>
 
-            <br/>
-            <h3>
-                <li>Oslo Origo skal sørge for at digitaliseringsarbeidet som pågår i Oslo kommune drar i én retning og bygger
-                    på samme plattform</li>
-            </h3>
+            <p>
+                Med dataplattformen tilbyr vi en rekke verktøy og tjenester som gjør det lett å skape verdi med data på
+                en måte som ivaretar personvern og individets rettigheter. Vi lever etter prinsippene om at:
+            </p>
 
-            <h3>
-                <li>Oslo Origo skal være en katalysator for innovasjon på tvers av virksomheter og sektorer, og bygge verktøy
-                og tjenester som bidrar til å realisere historien om Tim</li>
-            </h3>
+            <ul class="list">
+                <li>Livet er en strøm av hendelser</li>
+                <li>Innsikt om innbyggerne skaper bedre tjenester</li>
+            </ul>
+
+            <p>
+                Med dataplattformen får du for eksempel få tilgang til et datasett med informasjon om vannkvaliteten på
+                Oslo kommune sine badeplasser.
+            </p>
+
+            <img src="~@/assets/dataeksempel.png" />
         </div>
     </div>
 </template>
@@ -29,9 +35,13 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        width:50px;
-        white-space: normal;
-        word-break: break-word;
-        max-width:1200px;
+    }
+
+    .list {
+        list-style: disc;
+    }
+
+    .list li {
+        list-style-position: inside;
     }
 </style>
