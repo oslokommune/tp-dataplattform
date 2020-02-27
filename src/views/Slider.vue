@@ -22,7 +22,7 @@
         Gå tilbake
       </a>
       <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
-        <span>Les mer</span>
+        Neste
       </a>
     </div>
   </div>
