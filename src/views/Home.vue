@@ -1,14 +1,17 @@
 <template>
   <div class="home">
     <h1>WE GOT YO DATA</h1>
+    <Navigator />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+import Navigator from "./Navigator";
 
 export default {
-  name: "Home"
+  name: "Home",
+  components: { Navigator }
 };
 </script>
 
