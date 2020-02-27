@@ -3,12 +3,16 @@
     <table table-hover class="navtable">
       <tr>
         <b>
-          <a class="nav-link" Navigering>Forsiden</a>
+          <a href="/" class="nav-link" Navigering>Forsiden</a>
         </b>
       </tr>
       <tr>
         <b>
-          <a class="nav-link" Navigering>Datasett</a>
+          <a
+            href="https://developer.oslo.kommune.no/katalog/data"
+            class="nav-link"
+            Navigering
+          >Datasett</a>
         </b>
       </tr>
       <tr>
@@ -57,5 +61,9 @@ tr:hover {
   .nav-link {
     border-bottom: 3px solid #6fe9ff !important;
   }
+}
+
+a {
+  color: black;
 }
 </style>
