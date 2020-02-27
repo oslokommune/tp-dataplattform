@@ -1,11 +1,7 @@
 <template>
   <div id="app">
     <Header />
-
     <router-view class="content"/>
-
-    hehuehiehi
-
     <Footer />
   </div>
 </template>
@@ -98,4 +94,3 @@ html, body, #app {
   flex-shrink: 0;
 }
 </style>
-
