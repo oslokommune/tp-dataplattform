@@ -29,10 +29,11 @@ p.old {
 }
 
 .home {
-  background-image: url("~@/assets/bg.jpg");
-  background-size: cover;
+    background-image: url("~@/assets/bg.jpg");
+    background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 h1 {
