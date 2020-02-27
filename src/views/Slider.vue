@@ -14,7 +14,7 @@
         </div>
         <div class="carousel-item">
           <div class="d-flex align-items-center justify-content-center min-vh-100">
-            <h1 class="display-1">THREE</h1>
+            <HvordanBruke/>
           </div>
         </div>
       </div>
@@ -31,11 +31,13 @@
 <script>
  import HvaErDataplattform from "./HvaErDataplattform";
  import Datasett from "./Datasett";
+ import HvordanBruke from "./HvordanBruke";
  export default {
      name: "Slider",
      components: {
          HvaErDataplattform,
-         Datasett
+         Datasett,
+         HvordanBruke
      }
  }
 </script>
