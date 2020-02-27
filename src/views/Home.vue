@@ -1,23 +1,22 @@
 <template>
-    <div class="home">
-        <div class="window">
-            <Navbar/>
-        </div>
-        <div class="window">
-            <Slider/>
-        </div>
+  <div class="home">
+    <div class="window navbar">
+      <Navbar />
     </div>
+    <div class="window slider">
+      <Slider />
+    </div>
+  </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 import Navbar from "./Navbar";
 import Slider from "./Slider";
+
 export default {
   name: "Home",
-	components: {Slider, Navbar}
-}
+  components: { Slider, Navbar }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -42,6 +41,10 @@ h1 {
 }
 
 .window {
-    padding: 30px;
+  padding: 30px;
+}
+
+.slider {
+  width: 100%;
 }
 </style>

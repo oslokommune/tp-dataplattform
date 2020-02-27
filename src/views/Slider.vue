@@ -1,13 +1,39 @@
 <template>
-    <div>
-        Slider
+  <div class="container-fluid px-0">
+    <div id="carousel-controls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner bg-info" role="listbox">
+        <div class="carousel-item active" data-interval="">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <h1 class="display-1">ONE</h1>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <h1 class="display-1">TWO</h1>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <h1 class="display-1">THREE</h1>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel-controls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-controls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+  </div>
 </template>
 
 <script>
-	export default {
-		name: "Slider"
-	}
+ export default {
+     name: "Slider"
+ }
 </script>
 
 <style scoped>
