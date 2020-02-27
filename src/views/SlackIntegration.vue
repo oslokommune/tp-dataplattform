@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid px-0">
-    Skriv inn tekst her
+    <button type="button">Send tilbakemelding!</button>
   </div>
 </template>
 

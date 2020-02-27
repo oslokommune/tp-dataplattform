@@ -6,6 +6,9 @@
     <div class="window slider">
       <Slider />
     </div>
+    <div class="window slack_message">
+      <SlackIntegration />
+    </div>
   </div>
 </template>
 
