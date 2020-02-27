@@ -1,9 +1,15 @@
 <template>
   <div class="navbar">
-    <table class="navtable">
-      <tr>Navigering</tr>
-      <tr>Om oss</tr>
-      <tr>Kontakt oss</tr>
+    <table table-hover class="navtable">
+      <tr>
+        <b>Navigering</b>
+      </tr>
+      <tr>
+        <b>Om oss</b>
+      </tr>
+      <tr>
+        <b>Kontakt oss</b>
+      </tr>
     </table>
   </div>
 </template>
@@ -25,7 +31,6 @@ p.old {
 }
 
 .navtable {
-  padding-top: 18px;
   border: 1px solid black;
   display: flex; /* or inline-flex */
   flex-wrap: wrap;
@@ -38,5 +43,12 @@ tr,
 th {
   width: 200px;
   padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+tr:hover {
+  background-color: #ffff99;
 }
 </style>
