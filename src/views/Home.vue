@@ -28,10 +28,11 @@ p.old {
 }
 
 .home {
-  background-image: url("~@/assets/bg.jpg");
-  background-size: cover;
-  display: flex;
-  justify-content: center;
+    background-image: url("~@/assets/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
