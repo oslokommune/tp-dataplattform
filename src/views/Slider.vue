@@ -4,7 +4,7 @@
       <div class="carousel-inner bg-info" role="listbox">
         <div class="carousel-item active">
           <div class="d-flex align-items-center justify-content-center min-vh-100">
-            <h1 class="display-1">ONE</h1>
+            <HvaErDataplattform/>
           </div>
         </div>
         <div class="carousel-item">
@@ -31,8 +31,10 @@
 </template>
 
 <script>
+ import HvaErDataplattform from "./HvaErDataplattform";
  export default {
-     name: "Slider"
+     name: "Slider",
+   components: {HvaErDataplattform}
  }
 </script>
 
