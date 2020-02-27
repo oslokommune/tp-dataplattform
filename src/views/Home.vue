@@ -1,13 +1,21 @@
 <template>
-  <div class="home">
-    <div class="window navbar">
-      <Navbar />
+  <div>
+    <div class="home">
+      <div class="window navbar">
+        <Navbar />
+      </div>
+      <div class="window slider">
+        <Slider />
+      </div>
+      <div class="window slack_message">
+        <SlackIntegration />
+      </div>
     </div>
-    <div class="window slider">
-      <Slider />
-    </div>
-    <div class="window slack_message">
-      <SlackIntegration />
+    <div class="pic">
+      <br />
+      <br />
+      <h3>LAGET AV GJENGEN®</h3>
+      <img src="https://globalsemestersblog.files.wordpress.com/2014/02/friends.jpg" />
     </div>
   </div>
 </template>
