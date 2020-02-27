@@ -2,13 +2,19 @@
   <div class="navbar">
     <table table-hover class="navtable">
       <tr>
-        <b>Navigering</b>
+        <b>
+          <a class="nav-link" Navigering>Navigering</a>
+        </b>
       </tr>
       <tr>
-        <b>Om oss</b>
+        <b>
+          <a class="nav-link" Navigering>Datasett</a>
+        </b>
       </tr>
       <tr>
-        <b>Kontakt oss</b>
+        <b>
+          <a class="nav-link" Navigering>Kontakt oss</a>
+        </b>
       </tr>
     </table>
   </div>
@@ -31,7 +37,6 @@ p.old {
 }
 
 .navtable {
-  border: 1px solid black;
   display: flex; /* or inline-flex */
   flex-wrap: wrap;
   height: 200px;
@@ -49,6 +54,6 @@ th {
 }
 
 tr:hover {
-  background-color: #ffff99;
+  background-color: lightgray;
 }
 </style>
