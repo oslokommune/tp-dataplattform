@@ -17,7 +17,7 @@
       </tr>
       <tr>
         <b>
-          <a class="nav-link" Navigering>Kontakt oss</a>
+          <a href="/ontaktinfo" class="nav-link" Navigering>Kontakt oss</a>
         </b>
       </tr>
     </table>

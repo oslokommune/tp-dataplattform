@@ -14,8 +14,6 @@
     <div class="pic">
       <br />
       <br />
-      <h3>LAGET AV GJENGEN®</h3>
-      <img src="https://globalsemestersblog.files.wordpress.com/2014/02/friends.jpg" />
     </div>
   </div>
 </template>
