@@ -39,5 +39,7 @@
 </script>
 
 <style scoped>
-
+ .bg-info {
+     background-color: #fff !important;
+ }
 </style>
