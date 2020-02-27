@@ -4,7 +4,7 @@
       <h1>Hva er dataplattformen?</h1>
 
       <p>Dataplattformen er en samling av tilgjengelige data i Oslo Kommune.</p>
-
+      <br />
       <p>
         Med dataplattformen tilbyr vi en rekke verktøy og tjenester som gjør det lett å skape verdi med data på
         en måte som ivaretar personvern og individets rettigheter. Vi lever etter prinsippene om at:
