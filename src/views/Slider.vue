@@ -3,17 +3,17 @@
     <div id="carousel-controls" class="carousel slide" data-ride="carousel" data-interval="999999">
       <div class="carousel-inner bg-info" role="listbox">
         <div class="carousel-item active">
-          <div class="d-flex align-items-center justify-content-center min-vh-100">
+          <div class="d-flex justify-content-center min-vh-100">
             <HvaErDataplattform/>
           </div>
         </div>
         <div class="carousel-item">
-          <div class="d-flex align-items-center justify-content-center min-vh-100">
+          <div class="d-flex justify-content-center min-vh-100">
             <Datasett/>
           </div>
         </div>
         <div class="carousel-item">
-          <div class="d-flex align-items-center justify-content-center min-vh-100">
+          <div class="d-flex justify-content-center min-vh-100">
             <HvordanBruke/>
           </div>
         </div>
