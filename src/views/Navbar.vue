@@ -3,7 +3,7 @@
     <table table-hover class="navtable">
       <tr>
         <b>
-          <a class="nav-link" Navigering>Navigering</a>
+          <a class="nav-link" Navigering>Forsiden</a>
         </b>
       </tr>
       <tr>
@@ -54,6 +54,8 @@ th {
 }
 
 tr:hover {
-  background-color: lightgray;
+  .nav-link {
+    border-bottom: 3px solid #6fe9ff !important;
+  }
 }
 </style>
