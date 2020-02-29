@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  import { Icons } from '@tuuturu/vue/assets'
+  import { Icons } from '@oslokommune/vue/assets'
   export default {
       name: "Datasett",
       components: {
