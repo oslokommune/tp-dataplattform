@@ -11,7 +11,7 @@
     "@oslokommune/vue": "^0.0.31",
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "minireset.css": "0.0.6",
     "popper.js": "^1.16.1",
     "styleguide": "https://github.com/oslokommune/styleguide.git#0.35.10",
